@@ -244,6 +244,40 @@ Hide/Show table of contents
 
    **[⬆ Back to Top](#table-of-contents)**
 
+4. ### What is Continuous Delivery?
+
+   Continuous Delivery is a software development practice where code changes are automatically built, tested, and prepared for release to production. The goal is to make deployments predictable, reliable, and fast, so that new features, bug fixes, or updates can be released at any time with minimal manual intervention.
+
+In simple terms: CD ensures your software is always in a deployable state.
+
+Automation:
+Builds, tests, and deployments are automated using CI/CD pipelines.
+Frequent Releases:
+Enables frequent and smaller releases instead of large, risky deployments.
+Quality Assurance:
+Automated tests and checks ensure only stable, reliable code moves forward.
+Reduced Risk:
+Smaller changes are easier to debug and rollback if needed.
+Seamless Collaboration:
+Developers, testers, and operations work together efficiently (DevOps culture).
+
+5. What is Continuous Deployment?
+
+   Continuous Deployment is a software release practice where every change that passes automated tests is automatically deployed to production without any manual approval. It extends Continuous Delivery by removing the human intervention step, ensuring new features, bug fixes, or updates reach users as soon as they are ready.
+
+In simple terms: Code changes automatically go live once they pass all checks.
+
+Key Points for Interviews
+Fully Automated: Build, test, and deploy pipelines run automatically.
+Fast Delivery: Users get new features or fixes immediately.
+High Reliability: Automated testing ensures only stable code is deployed.
+Reduced Manual Effort: No release manager approvals are needed.
+Requires Strong Testing & Monitoring: Because everything goes live automatically, robust automated tests and monitoring are essential.
+
+***  Continuous Delivery = always ready to deploy, but manual release.  ***
+***  Continuous Deployment = automatically deployed when tests pass.  ***
+
+
 ## Docker
 
 6. ### What is Docker?
